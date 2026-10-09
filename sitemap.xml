@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://silabotov.github.io/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://silabotov.github.io/Reklama_chaty_bot/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://silabotov.ru/</loc></url>
+  <url><loc>https://silabotov.ru/Catalog/</loc></url>
+  <url><loc>https://silabotov.ru/Reklama_chaty_bot/</loc></url>
+  <url><loc>https://silabotov.ru/guide/</loc></url>
+  <url><loc>https://silabotov.ru/policy/</loc></url>
+  <url><loc>https://silabotov.ru/consent/</loc></url>
+  <url><loc>https://silabotov.ru/cookie/</loc></url>
 </urlset>

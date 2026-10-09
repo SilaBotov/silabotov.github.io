@@ -1,0 +1,20 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="maxGradient" x1="8" y1="56" x2="56" y2="8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#26B2FF"/>
+      <stop offset="1" stop-color="#A24BFF"/>
+    </linearGradient>
+    <filter id="maxShadow" x="6" y="6" width="52" height="52" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0B122A" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect x="7" y="7" width="50" height="50" rx="16" fill="url(#maxGradient)"/>
+  <g filter="url(#maxShadow)">
+    <path
+      fill="#FFFDFE"
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M35.314 14C24.294 14 16.533 21.46 16.533 31.739C16.533 36.473 18.268 40.413 21.193 43.501L21.65 43.983V44.65C21.65 47.432 20.682 49.818 18.687 52.145C22.087 51.492 24.798 50.077 27.331 47.748L28.046 47.091L28.999 47.292C30.044 47.513 31.12 47.625 32.228 47.625C43.425 47.625 51.467 40.18 51.467 29.759C51.467 19.693 43.146 14 35.314 14ZM34.206 21.381C40.418 21.381 44.96 25.504 44.96 31.366C44.96 37.419 40.251 41.71 34.073 41.71C32.794 41.71 31.597 41.519 30.478 41.137L28.754 40.548L27.483 41.857C26.659 42.706 25.719 43.426 24.657 44.02C25.106 42.701 25.328 41.254 25.328 39.682V38.123L24.245 36.958C22.491 35.07 21.707 33.159 21.707 30.3C21.707 25.095 26.09 21.381 34.206 21.381Z"
+    />
+  </g>
+</svg>
