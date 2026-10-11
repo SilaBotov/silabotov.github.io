@@ -2065,3 +2065,92 @@ select {
         font-size: 1rem;
     }
 }
+
+/* ===== Cookie notice (создаётся скриптом main.js) ===== */
+.cookie-notice {
+    position: fixed;
+    left: 16px;
+    bottom: 16px;
+    z-index: 1000;
+    width: min(430px, calc(100vw - 32px));
+    padding: 20px 22px 18px;
+    background: var(--panel-strong);
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    color: var(--text);
+    font-family: var(--font);
+}
+
+.cookie-notice__title {
+    margin: 0 34px 8px 0;
+    font-weight: 800;
+    font-size: 1.05rem;
+}
+
+.cookie-notice p {
+    margin: 0 0 16px;
+    font-size: 0.92rem;
+    line-height: 1.55;
+    color: var(--muted);
+}
+
+.cookie-notice a {
+    color: var(--primary);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.cookie-notice__close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    background: transparent;
+    color: var(--muted);
+    font-size: 1.2rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.cookie-notice__close:hover {
+    color: var(--text);
+    border-color: var(--line-strong);
+}
+
+.cookie-notice__button {
+    min-height: 44px;
+    padding: 0 22px;
+    border: 0;
+    border-radius: 999px;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-strong) 100%);
+    box-shadow: 0 10px 28px rgba(75, 202, 221, 0.28);
+    color: var(--bg);
+    font: 800 0.95rem/1 var(--font);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.cookie-notice__button:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 640px) {
+    .cookie-notice {
+        left: 12px;
+        right: 12px;
+        bottom: 12px;
+        width: auto;
+    }
+
+    /* на телефоне кнопка «Связаться» в шапке не нужна */
+    .site-nav a.button--ghost {
+        display: none;
+    }
+}
