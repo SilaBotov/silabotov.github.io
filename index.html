@@ -551,5 +551,18 @@
     </div>
 
     <script src="/assets/js/main.js" defer></script>
+<script>
+(function(){
+  var tk=false;
+  function sweep(){
+    tk=false;
+    document.querySelectorAll('[data-reveal]:not(.is-visible)').forEach(function(el){
+      if(el.getBoundingClientRect().top<-20)el.classList.add('is-visible');
+    });
+  }
+  addEventListener('scroll',function(){if(!tk){tk=true;requestAnimationFrame(sweep)}},{passive:true});
+  addEventListener('load',sweep);
+})();
+</script>
 </body>
 </html>
