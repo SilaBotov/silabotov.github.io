@@ -2158,9 +2158,10 @@ select {
 /* Значки соцсетей в шапке: одинаковый размер и цвета */
 .site-socials a{flex:0 0 38px;box-sizing:border-box;padding:0}
 .site-socials a svg{display:block;width:22px;height:22px}
-.site-socials a[aria-label="Telegram"]{background:linear-gradient(180deg,#34B4EC,#1C86C8);border-color:rgba(255,255,255,.3);color:#fff}
-.site-socials a[aria-label="Telegram"]:hover{background:linear-gradient(180deg,#4CC1F5,#2796DA);border-color:rgba(255,255,255,.55);color:#fff}
+.site-socials a[aria-label="Telegram"]{background:rgba(52,180,236,.14);border-color:rgba(52,180,236,.4);color:#34B4EC}
+.site-socials a[aria-label="Telegram"]:hover{background:rgba(52,180,236,.26);border-color:#34B4EC;color:#4CC1F5}
+.site-socials a img.max-brand-icon{width:26px;height:26px}
 .site-socials a[aria-label="ВКонтакте"]{background:rgba(75,202,221,.12);border-color:rgba(75,202,221,.35);color:var(--primary)}
 .site-socials a[aria-label="ВКонтакте"]:hover{background:rgba(75,202,221,.22);border-color:var(--primary);color:var(--primary)}
 /* Значок Telegram в карточке «Портфолио в Telegram» того же цвета, что кнопка в шапке */
-.accordion__icon--tg{background:linear-gradient(180deg,#34B4EC,#1C86C8);color:#fff}
+.accordion__icon--tg{background:rgba(52,180,236,.14);color:#34B4EC}
